@@ -23,6 +23,7 @@ public class windowHandling {
 		Set<String> allwindows = driver.getWindowHandles();
 		Iterator<String> Iterator = allwindows.iterator();
 		String window1 = Iterator.next();
+		
 		System.out.println(window1);
 
 		driver.switchTo().window(window1);
